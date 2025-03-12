@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name</title>
+    <title>Pree Kolari personal site</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
     <style>
         * {
@@ -16,13 +16,15 @@
             font-family: 'Inter', sans-serif;
             line-height: 1.6;
             color: #000;
-            max-width: 680px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 4rem 2rem;
-            text-align: center;
+            text-align: left;
+            font-weight: 300;
         }
 
         nav {
+            align-content: right;
             margin-bottom: 5rem;
         }
 
@@ -43,10 +45,25 @@
         .content {
             display: flex;
             flex-direction: column;
-            gap: 2.5rem;
-            margin-bottom: 5rem;
+            gap: 1rem;
+            margin-bottom: 0rem;
+        }
+        .full-width-image {
+            width: 100%;
+            overflow: hidden;
+            max-height: 300px;
         }
 
+        .full-width-image img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .full-width-image-at100 {
+            width: 100%;
+            overflow: hidden;
+        }
         p {
             font-size: 1.1rem;
             line-height: 1.7;
@@ -118,7 +135,7 @@
         }
 
         .overlay-description {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             text-align: center;
             color: #333;
         }
@@ -148,29 +165,65 @@
                 gap: 1rem;
             }
         }
+
     </style>
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="https://medium.com/@pree">WRITINGS</a></li>
-            <li><a href="https://www.linkedin.com/in/kolari/">LINKEDIN</a></li>
-            <li><a href="#home">HOME</a></li>
-        </ul>
-    </nav>
-
+    <div class="header">
+        <h1>Designer, Engineer, Entrepreneur, Beekeeper</h1>
+    </div>
     <div class="content">
         <p>
             I am a product leader with expertise in building products and platforms. I believe in leveraging market insights, best-in-class technology, diversity of thought, and elegant design to build aspirational products that make a difference.
         </p>
         <p>
-            I envision what products can be based on human aspiration, market insight, nextgen technology, and delightful design. The most successful design cultures and products are co-created with users and partners across an organization. I operate through design thinking, participatory design, prototyping with code, shared OKR’s, and clear design metrics.
-
+            I envision what products can be based on human aspiration, market insight, nextgen technology, and delightful design. The most successful design cultures and products are co-created with users and partners across an organization. I operate through design thinking, participatory design, prototyping with code, shared OKRs, and clear design metrics.
         </p>
         <p>
-            When I’m not working, I can be found in the Sierras with my family, tending to bees in our urban garden, woodworking, or creating art.
+            When I am not working, I can be found in the Sierras with my family, tending to bees in our urban garden, woodworking, or creating art.
+        <p>
+            I have worked as a Chief design officer and GM of product at several companies. My expertise is in product leadership, design, UX/UI, branding, engineering, customer research. Below is a sampling of work I have been fortunate to be part of.
         </p>
-
+        <p>
+           Thanks for stopping by!
+           - pree kolari
+        </p>
+        <div class="full-width-image-at100">
+            <img src="images/profile_photo_jpg.jpg" alt="Edge to Edge Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="full-width-image">
+            <img src="images/Klaviyo_IPO.jpg" alt="Edge to Edge Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="content">
+            <p>
+                Klaviyo is a 10+ Billion unified data and marketing automation platform. I was part of the company's leadership team reporting to the CEO and founder. <br>I lead design (Product design, brand, content and research) through a 8X revenue growth to 1Bil, an IPO and shipping of a world class design system. 
+            </p>
+        </div>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="images/Klaviyo_web.jpg" alt="web site and brand redesign">
+                <div class="image-overlay">
+                    <div class="overlay-description">Re-branding and setting us up for IPO success</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/Klaviyo_dash.jpg" alt="Many tiny farms">
+                <div class="image-overlay">
+                    <div class="overlay-description">Completely mordernizing the UX stack</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/klaviyo_des_syst.jpg" alt="Boson">
+                <div class="image-overlay">
+                    <div class="overlay-description">Attaracting and leading 125 amazing designers, building a modular design system, increasing velocity of shipping products</div>
+                </div>
+            </div>
+        </div>   
+        <div class="content">
+            <p>
+                Recently, I have been enabling b2b and marketplace startups to build beautiful, simple, and efficient designs and achieve rapid human-centered product-market fit. <br> I have operated as a design advisory board member, fractional design leader, and investor at several startups. I have also mentored young companies at 500Startups and FalconX B2B incubator.
+            </p>
+        </div>
         <div class="image-grid">
             <div class="image-item">
                 <img src="images/Dashboard_crop-1920x1373.jpg" alt="Safe security dashboard">
@@ -190,6 +243,17 @@
                     <div class="overlay-description">Boson Motors: Self driving electric trucks for automating farm work. Brand and design.</div>
                 </div>
             </div>
+        </div>   
+        <div class="full-width-image">
+            <img src="images/ebay_shipping.jpg" alt="Edge to Edge Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="content">
+            <p>
+                eBay is a 90Bil $ GMV online marketplace that connects a global network of buyers and sellers. It has 180M of users in 23 countries.<br>
+                My mandate was to further establish our design culture, pick winning solutions, and grow our user base. I co-created, prototyped, placed bets, and shipped successful solutions for the future of e-commerce; search, browse, selling, payment systems, monetization services, and more.
+            </p>
+        </div>
+        <div class="image-grid">   
             <div class="image-item">
                 <img src="images/ebay5o-copy-1.jpg" alt="Ebay5.0">
                 <div class="image-overlay">
@@ -209,11 +273,100 @@
                 </div>
             </div>
         </div>
+        <div class="full-width-image">
+            <img src="images/motoxred-edited-1.png" alt="Edge to Edge Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="content">
+            <p>
+                Motorola Mobility is a multinational telecommunication company selling mobile phones in more than 50 countries. It was sold to Google in 2012, and acquired by Lenovo in 2014.<br>
+                My mandate was to lead the global hardware and software design research and strategy while leading teams in multiple countries. Our remit at Motorola was to marry innovative hardware with amazing software to 10x the user experience.
+            </p>
+        </div>
+        <div class="image-grid">   
+            <div class="image-item">
+                <img src="images/ebay5o-copy-1.jpg" alt="Ebay5.0">
+                <div class="image-overlay">
+                    <div class="overlay-description">Data driven iteration for ebay 5.0 that resulted in highest rated e-commerce app</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/portfoliodetails.036.jpeg" alt="ebay google home">
+                <div class="image-overlay">
+                    <div class="overlay-description">Presented to the exec board and shipped ebay on google home</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/AR-shipping01.001.jpeg" alt="Augmented Reality">
+                <div class="image-overlay">
+                    <div class="overlay-description">Whichbox: Helping sellers with the power of Augmented Reality</div>
+                </div>
+            </div>
+        </div>
+        <div class="full-width-image">
+            <img src="images/kinect_livingroom_jump.jpg" alt="Edge to Edge Image" style="width: 100%; height: auto;">
+        </div>
+        <div class="content">
+            <p>
+                Microsoft is a Trillion $ multinational company with 126 Bil in revenue across cloud, enterprise, desktop and xbox.<br>
+                Managed and developed Visual Design and Creative Writing teams for Lync. Initiated and led a company-wide trends initiative. Additionally was on core incubation team for early prototypes of xBox Kinect and windows phone.
+            </p>
+        </div>
+        <div class="image-grid">   
+            <div class="image-item">
+                <img src="images/Xbox360S_Kinect_web2.jpg" alt="Ebay5.0">
+                <div class="image-overlay">
+                    <div class="overlay-description">Incubation team for Kinect 1.0, building the first touchless 10ft UI</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/Lync2013.jpg" alt="ebay google home">
+                <div class="image-overlay">
+                    <div class="overlay-description">Moving from Ribbon to Modern UI. Lead the visual design and content teams</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/people_cards.jpg" alt="Augmented Reality">
+                <div class="image-overlay">
+                    <div class="overlay-description">People cards UI metaphor took advantage of the touch & interactive medium</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width-image">
+            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ax2Iefxamn8" title="MUXjudging video" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="content">
+            <p>
+                I am available for selected speaking engagements. Please contact me via email or linkedin.
+            </p>
+        </div>        
+        <div class="image-grid">   
+            <div class="image-item">
+                <img src="images/speaking_pro.jpg" alt="Ebay5.0">
+                <div class="image-overlay">
+                    <div class="overlay-description">Presenting Design at conference in Austria</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/Barcelona_sml.jpg" alt="ebay google home">
+                <div class="image-overlay">
+                    <div class="overlay-description">Sharing Radical collaboration techniques to execs at Barcelona R&D summit</div>
+                </div>
+            </div>
+            <div class="image-item">
+                <img src="images/auburn.jpg" alt="Augmented Reality">
+                <div class="image-overlay">
+                    <div class="overlay-description">How can we expect our users to love our products if we do not put love into it @ the Auburn IDSA</div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="links">
             <a href="https://x.com/pree">Twitter</a>
             <a href="https://www.linkedin.com/in/kolari/">LinkedIn</a>
             <a href="https://www.instagram.com/kolari/">Instagram</a>
+            <a href="https://medium.com/@pree">Medium</a>
         </div>
     </div>
 </body>
